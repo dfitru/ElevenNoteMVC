@@ -66,6 +66,10 @@
       <Project>{ce8057d1-d2da-44b8-9081-c8a090d19035}</Project>
       <Name>ElevenNote.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ElevenNote.Models\ElevenNote.Models.csproj">
+      <Project>{01c7c16d-c4eb-4efe-92eb-51ed63837f77}</Project>
+      <Name>ElevenNote.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
